@@ -11,7 +11,7 @@
       "currency"
     ],
     "patternProperties": {
-      "currency": {"pattern": "RUB|USD"}
+      "currency": {"pattern": "RUR|USD"}
     },
     "additionalProperties": false,
     "properties": {
