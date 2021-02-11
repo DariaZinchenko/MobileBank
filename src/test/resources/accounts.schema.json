@@ -10,13 +10,16 @@
       "balance",
       "currency"
     ],
+    "patternProperties": {
+      "currency": {"pattern": "RUB|USD"}
+    },
     "additionalProperties": false,
     "properties": {
       "id": {
         "type": "integer"
       },
       "name": {
-        "type": "integer",
+        "type": "string",
         "minLength": 1
       },
       "number": {
